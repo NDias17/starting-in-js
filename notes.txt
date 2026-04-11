@@ -1,0 +1,48 @@
+JAVASCRIPT
+//Comando para executar um projecto Node: npm init -y
+
+TIPOS DE DADOS
+string
+number
+boolean
+array
+object
+func
+date
+
+DECLARAÇÃO DE VARIÁVEIS
+palavraChave nomeDaVariável
+-var nomeDaVariável (a variável só poderá ser usada dentro de um mesmo escopo de função, pode ser redeclarada, pode ser reatribuída, pode causar comportamentos inesperados)
+-let nomeDaVariável (a variável só poderá ser usada dentro de um mesmo escopo de função, não pode ser redeclarada, pode ser reatribuída, mais segura que o [var])
+-const nomeDaVariável (a variável só poderá ser usada dentro de um mesmo escopo de função, não pode ser redeclarada, não pode ser reatribuída)
+
+OPERADORES ARITMÉTICOS
++ (soma)
+- (subtração)
+* (multiplicação)
+/ (divisão)
+% (módulo, ou resto da divisão)
+
+OPERADORES DE ATRIBUIÇÃO
++= (soma o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
+-= (subtrai o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
+*= (multiplica o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
+/= (divide o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
+
+OPERADORES DE COMPARAÇÃO
+> (maior que)
+< (menor que)
+>= (maior ou igual que)
+<= (menor ou igual que)
+== (igual a)
+=== (estritamente igual a)- compara o valor e o tipo de dado    
+!= (diferente de)
+!== (estritamente diferente de)- compara o valor e o tipo de dado
+
+OPERADORES LÓGICOS
+&& (and)- as duas condições precisam ser verdadeiras
+|| (or)- pelo menos uma condição deve ser verdadeira
+NOT (não)- nega o valor da variável
+
+OPERADOR TERNÁRIO
+(expressão) ? (se verdadeiro) : (se falso)
