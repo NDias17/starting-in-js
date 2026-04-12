@@ -1,6 +1,7 @@
 JAVASCRIPT
 //Comando para executar um projecto Node: npm init -y
 
+
 TIPOS DE DADOS
 string
 number
@@ -10,11 +11,13 @@ object
 func
 date
 
+
 DECLARAÇÃO DE VARIÁVEIS
 palavraChave nomeDaVariável
 -var nomeDaVariável (a variável só poderá ser usada dentro de um mesmo escopo de função, pode ser redeclarada, pode ser reatribuída, pode causar comportamentos inesperados)
 -let nomeDaVariável (a variável só poderá ser usada dentro de um mesmo escopo de função, não pode ser redeclarada, pode ser reatribuída, mais segura que o [var])
 -const nomeDaVariável (a variável só poderá ser usada dentro de um mesmo escopo de função, não pode ser redeclarada, não pode ser reatribuída)
+
 
 OPERADORES ARITMÉTICOS
 + (soma)
@@ -23,11 +26,13 @@ OPERADORES ARITMÉTICOS
 / (divisão)
 % (módulo, ou resto da divisão)
 
+
 OPERADORES DE ATRIBUIÇÃO
 += (soma o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
 -= (subtrai o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
 *= (multiplica o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
 /= (divide o valor da direita com o valor da variável à esquerda e atribui o resultado à variável da esquerda)
+
 
 OPERADORES DE COMPARAÇÃO
 > (maior que)
@@ -39,10 +44,43 @@ OPERADORES DE COMPARAÇÃO
 != (diferente de)
 !== (estritamente diferente de)- compara o valor e o tipo de dado
 
+
 OPERADORES LÓGICOS
 && (and)- as duas condições precisam ser verdadeiras
 || (or)- pelo menos uma condição deve ser verdadeira
 NOT (não)- nega o valor da variável
 
+
 OPERADOR TERNÁRIO
 (expressão) ? (se verdadeiro) : (se falso)
+
+
+ESTRUTURA CONDICIONAL
+IF/ELSE
+Permite executar um bloco de código se uma condição for verdadeira e outro bloco se for falsa.
+Sintaxe:
+if(condição){
+    //cOMANDOS que serão excutads se a condição for verdadeira
+}else{
+    //Comandos que serão excutads se a condiçãonão for verdadeira
+}
+
+Switch/comportamentos
+Usado para comparar um único valor com várias opções e é mais organizado quando há muitos casos fixos.
+Sintaxe:
+Switch(variável){
+    case(opção1):{
+        //Instruções a serem executadas no caso de essa ser a condição verdadeira
+        break;
+    }
+    case(opção2):{
+        //Instruções a serem executadas no caso de essa ser a condição verdadeira
+        break;
+    }
+    case(opçãon):{
+        //Instruções a serem executadas no caso de essa ser a condição verdadeira
+        break;
+    }
+}
+
+OBS: a palavra reservada "break" serve para interromper a execução de um bloco, evitando que o código continue executando os próximos casos.
