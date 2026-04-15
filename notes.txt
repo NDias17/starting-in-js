@@ -64,6 +64,15 @@ if(condição){
 }else{
     //Comandos que serão excutads se a condiçãonão for verdadeira
 }
+Exemplo:
+let numero = 10;
+if (numero < 5) {
+  console.log("Menor que 5");
+} else if (numero === 10) {
+  console.log("Igual a 10");
+} else {
+  console.log("Outro valor");
+}
 
 Switch/comportamentos
 Usado para comparar um único valor com várias opções e é mais organizado quando há muitos casos fixos.
@@ -82,5 +91,59 @@ Switch(variável){
         break;
     }
 }
+Exemplo:
+let cor = "azul";
+switch (cor) {
+  case "azul":
+    console.log("Cor azul");
+    break;
+  case "vermelho":
+    console.log("Cor vermelha");
+    break;
+  default:
+    console.log("Outra cor");
+}
 
-OBS: a palavra reservada "break" serve para interromper a execução de um bloco, evitando que o código continue executando os próximos casos.
+OBS: a palavra reservada "break" serve para interromper a execução de um bloco, evitando que o código continue executando os próximos casos. A palavra reservada "default" serve para executar determinadas instruções, caso nenhuma das condições seja cumprida
+
+
+ESTRUTURA DE REPETIÇÃO
+
+FOR
+Repete a execução de determinadas instruções até uma condição se tornar falsa. É usado quando já sabemos o número de vezes que um bloco ed códigos será executado.
+Sintaxe:
+for(inicialização; condição; incremento/decremento){
+    //Instruções a realizar enquanto a condição for verdadeira 
+}
+
+Exemplo
+for(let i=0; i>=10; i++){
+    console.log(i)
+    //setTimeout(() => console.log(i), 200 * i)-- altera o intervalo de tempo que os números são printados na tela 
+}
+
+Exemplo2
+const fruits = ["manga", "banana", "maçã", "pÊssego"]
+for(let i=0; i < fruits.length; i++){
+    console.log(fruits[i]);
+}
+
+WHILE 
+Repete a execução de determinadas instruções até uma condição se tornar falsa. É usado quando não sabemos o número de vezes que um bloco ed códigos será executado.
+Sintaxe:
+while(condição){
+    //bloco de códigos a ser executado
+    //Incremento ou decremento
+}
+
+Exemplo
+let count = 0
+while(count <= 10){
+    console.log(count)
+    count++
+}
+
+
+
+
+
