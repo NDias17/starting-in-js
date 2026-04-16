@@ -144,6 +144,21 @@ while(count <= 10){
 }
 
 
+FUNÇÕES
+Funções são blocos de códigos desstinados a executar tarefas específicas num programa e, podem ser chamados em qualquer parte do programa.
+
+Sintaxe1
+function nomeDaFuncao(parametro1, parametro2) {
+  // código a executar
+  return resultado;
+}
+
+Sintaxe2
+function nomeDaFuncao(parametro1, parametro2, parametron){
+    //código a executar
+}
+//PARA CHAMAR AFUNÇÃO
+nomeDaFuncao(atributo(s))
 
 
 

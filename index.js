@@ -48,7 +48,7 @@ while(current !== expected){
 }
 console.log(`O número ${expected} foi sorteado após ${times} tentativas.`);*/
 
-let count = 0;
+/*let count = 0;
 while(count <= 10){
     count++
 
@@ -57,4 +57,20 @@ while(count <= 10){
         break;
     };
     console.log(count)
+}*/
+
+//CALCULANDO FATORIAL DE UM NÚMERO
+let b = 1;
+for(let m=1; m<=3; m++){
+    b *= m;
 }
+console.log(b);
+
+let number = 1;
+function factorial(n){
+    for(let i=1; i<=n; i++){
+        number *= i;
+    }
+    return number;
+}
+console.log(factorial(5));
